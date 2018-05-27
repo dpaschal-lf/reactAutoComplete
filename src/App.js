@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import AutoCompleteInput from './components/autocompleteInput/autocompleteinput';
 
 class App extends Component {
   constructor(props){
@@ -10,7 +11,7 @@ class App extends Component {
 
     return (
       <div className="App">
-
+      	<AutoCompleteInput />
       </div>
     );
   }
